@@ -29,7 +29,7 @@ namespace RosSharp.RosBridgeClient
         }
         private void Update()
         {
-            joyAxisWriter.Write(Input.GetAxis(AxisName));
+            joyAxisWriter.Write(SimpleInput.GetAxis(AxisName));
         }
     }
 }

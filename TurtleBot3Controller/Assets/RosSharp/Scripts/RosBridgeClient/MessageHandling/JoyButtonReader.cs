@@ -23,7 +23,7 @@ namespace RosSharp.RosBridgeClient
         
         public bool Read()
         {
-            return Input.GetButton(Name);              
+            return SimpleInput.GetButton(Name);              
         }
     }
 }
