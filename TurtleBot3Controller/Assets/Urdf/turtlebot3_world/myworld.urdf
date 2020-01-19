@@ -1,0 +1,190 @@
+<?xml version="1.0" ?>
+<robot name="ros_symbol">
+  <link name="ros_symbol__symbol">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="ros_symbol__one_one">
+      <origin rpy="0  0  0" xyz="-1.1  -1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__one_two">
+      <origin rpy="0  0  0" xyz="-1.1   0    0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__one_three">
+      <origin rpy="0  0  0" xyz="-1.1   1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__two_one">
+      <origin rpy="0  0  0" xyz="0   -1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__two_two">
+      <origin rpy="0  0  0" xyz="0    0    0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__two_three">
+      <origin rpy="0  0  0" xyz="0    1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__three_one">
+      <origin rpy="0  0  0" xyz="1.1  -1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__three_two">
+      <origin rpy="0  0  0" xyz="1.1   0    0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__three_three">
+      <origin rpy="0  0  0" xyz="1.1   1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__head">
+      <origin rpy="0  0  0" xyz="3.5  0  -0.5"/>
+      <geometry>
+        <mesh filename="package://meshes/hexagon.dae" scale="0.8 0.8 0.8"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__left_hand">
+      <origin rpy="0  0  0" xyz="1.8  2.7  0"/>
+      <geometry>
+        <mesh filename="package://meshes/hexagon.dae" scale="0.55 0.55 0.55"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__right_hand">
+      <origin rpy="0  0  0" xyz="1.8 -2.7  0"/>
+      <geometry>
+        <mesh filename="package://meshes/hexagon.dae" scale="0.55 0.55 0.55"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__left_foot">
+      <origin rpy="0  0  0" xyz="-1.8  2.7  0"/>
+      <geometry>
+        <mesh filename="package://meshes/hexagon.dae" scale="0.55 0.55 0.55"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__right_foot">
+      <origin rpy="0  0  0" xyz="-1.8 -2.7  0"/>
+      <geometry>
+        <mesh filename="package://meshes/hexagon.dae" scale="0.55 0.55 0.55"/>
+      </geometry>
+    </collision>
+    <collision name="ros_symbol__body">
+      <origin rpy="0      0     -1.5708" xyz="0   0  -0.3"/>
+      <geometry>
+        <mesh filename="package://meshes/wall.dae" scale="0.25 0.25 0.25"/>
+      </geometry>
+    </collision>
+    <visual name="ros_symbol__one_one">
+      <origin rpy="0  0  0" xyz="-1.1  -1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__one_two">
+      <origin rpy="0  0  0" xyz="-1.1   0    0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__one_three">
+      <origin rpy="0  0  0" xyz="-1.1   1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__two_one">
+      <origin rpy="0  0  0" xyz="0   -1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__two_two">
+      <origin rpy="0  0  0" xyz="0    0    0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__two_three">
+      <origin rpy="0  0  0" xyz="0    1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__three_one">
+      <origin rpy="0  0  0" xyz="1.1  -1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__three_two">
+      <origin rpy="0  0  0" xyz="1.1   0    0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__three_three">
+      <origin rpy="0  0  0" xyz="1.1   1.1   0.25"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__head">
+      <origin rpy="0  0  0" xyz="3.5  0  -0.5"/>
+      <geometry>
+        <mesh filename="package://meshes/hexagon.dae" scale="0.8 0.8 0.8"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__left_hand">
+      <origin rpy="0  0  0" xyz="1.8  2.7  0"/>
+      <geometry>
+        <mesh filename="package://meshes/hexagon.dae" scale="0.55 0.55 0.55"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__right_hand">
+      <origin rpy="0  0  0" xyz="1.8 -2.7  0"/>
+      <geometry>
+        <mesh filename="package://meshes/hexagon.dae" scale="0.55 0.55 0.55"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__left_foot">
+      <origin rpy="0  0  0" xyz="-1.8  2.7  0"/>
+      <geometry>
+        <mesh filename="package://meshes/hexagon.dae" scale="0.55 0.55 0.55"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__right_foot">
+      <origin rpy="0  0  0" xyz="-1.8 -2.7  0"/>
+      <geometry>
+        <mesh filename="package://meshes/hexagon.dae" scale="0.55 0.55 0.55"/>
+      </geometry>
+    </visual>
+    <visual name="ros_symbol__body">
+      <origin rpy="0      0     -1.5708" xyz="0   0  -0.3"/>
+      <geometry>
+        <mesh filename="package://meshes/wall.dae" scale="0.25 0.25 0.25"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
